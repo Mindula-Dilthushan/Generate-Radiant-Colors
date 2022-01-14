@@ -1,0 +1,91 @@
+/*Mindula Dilthushan
+Generate-Radiant-Color*/
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background-image: linear-gradient(to right top, #0fb9b1, #3acac3, #56dcd4, #6dede7, #84fff9);
+}
+
+.content-section {
+    width: 45%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.32);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
+.color-section {
+    width: 35%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.color_01 {
+    width: 100px;
+    height: 40px;
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.color_02 {
+    width: 100px;
+    height: 40px;
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.code-text {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 10px;
+}
+
+.code-text-p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 10px;
+    cursor: text;
+}
+
+.btn-copy {
+    width: 20%;
+    height: 8%;
+    border-radius: 8px;
+    background-color: #4b4b4b;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-copy:hover {
+    background-color: #282828;
+}
+
+.footer-section {
+    width: 40%;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer-text {
+    font-family: 'Balsamiq Sans', cursive;
+    margin-top: 30%;
+}
