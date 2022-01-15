@@ -21,6 +21,7 @@ color_01.addEventListener("input", setGradient)
 color_02.addEventListener("input", setGradient)
 
 function myFunction() {
+
     var copyText = document.getElementById("generate_color_code").textContent;
 
     navigator.clipboard.writeText(copyText);
