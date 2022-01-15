@@ -11,7 +11,7 @@ function setGradient() {
         + color_01.value
         + ", "
         + color_02.value
-        +")";
+        + ")";
 
     generate_color_code.textContent = radiant_color.style.background + ";";
 }
@@ -20,4 +20,12 @@ color_01.addEventListener("input", setGradient)
 
 color_02.addEventListener("input", setGradient)
 
+function myFunction() {
+    var copyText = document.getElementById("generate_color_code").textContent;
 
+    navigator.clipboard.writeText(copyText);
+
+    $('#yes_copy').css({
+        'display': 'block'
+    });
+}

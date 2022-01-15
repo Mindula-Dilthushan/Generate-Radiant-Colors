@@ -49,16 +49,16 @@ body {
 
 .code-text {
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
     padding: 0;
-    margin: 10px;
+    margin: 5px;
 }
 
 .code-text-p {
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
     padding: 0;
-    margin: 10px;
+    margin: 15px;
     cursor: text;
 }
 
@@ -70,11 +70,51 @@ body {
     border-color: transparent;
     color: white;
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 .btn-copy:hover {
-    background-color: #282828;
+    background-color: #212121;
+}
+
+.copy-code-section {
+    width: 50%;
+    height: 6%;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.copied-data {
+    width: 80%;
+    height: 100%;
+    background-color: #089d4a;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.copied-data-no {
+    width: 100%;
+    height: 100%;
+    background-color: #eb3b5a;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.text-code {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 1%;
+    margin-left: 5%;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 .footer-section {
